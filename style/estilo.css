@@ -1,0 +1,165 @@
+/* CABECALHO */
+#img-header{
+	position: absolute;
+	width: 100%;
+	height: 10px;
+}
+.menu{
+	font-weight: bold;
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+}
+.menu li:hover{
+	background-color: #8585c1;
+	color: #fff;
+	text-decoration: none;
+}
+.menu li{
+	padding-right: 15px;
+	padding-left: 15px;
+	position: relative;
+	top: 35px;
+	color: #8585c1;
+	display: inline-block;
+}
+.menu a{
+	text-decoration: none;
+	color: #fff;
+}
+.row{
+	padding-top: 20px;
+	padding-bottom: 10px;
+	margin-right: 0;
+}
+@media(max-width: 768px){
+	.menu li{
+		display:block;
+		text-align: center;
+		position: relative;
+		top: 0;
+		padding: 5px;
+	}
+	.menu li:hover{
+		background-color: #fff;
+		color: #8585c1;
+	}
+	.menu{
+		padding: 0;
+		box-sizing: content-box;
+	}
+	span{
+		font-size: 35px;
+		color: #8585c1;
+		padding-top: 30px;
+		text-align: center;
+	}
+}
+/*FIM CABECALHO*/
+
+/*CORPO*/
+body{
+	font-family: 'Raleway', sans-serif;
+}
+.bg{
+	background-image: url("../img/back.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 600px;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+}
+.banner h2{
+	font-size: 46px;
+	color: #FFF;
+	text-align: center;
+}
+.banner h3{
+	font-size: 26px;
+	color: #FFF;
+	text-align: center;
+}
+.banner a{
+	border: 2px solid #fff;
+	border-radius: 300px;
+	padding: 1em 1.75em;
+	text-transform: uppercase;
+	background-color: transparent;
+	color: #fff;
+	text-decoration: none;
+	letter-spacing: 2px;
+}
+p{
+	color: rgba(8,0,26,.49);
+}
+.banner a:hover{
+	background-color: white;
+	color: black;
+	text-decoration: none;
+}
+.banner-texto{
+	width: 100%;
+	position: absolute;
+	top: 20%;
+}
+a: link{
+	text-decoration: none;
+}
+.botoes{
+	position: absolute;
+	top: 50%;
+	font-weight: bold;
+	width: 100%;
+}
+#agendamento, figure{
+	text-align: center;
+	color: #8585c1;
+}
+@media(max-width: 481px){
+	.botoes{
+		width: 100%;
+		position: absolute;
+		top: 70%;
+	}
+}
+.apple{
+	float: right;
+}
+.android{
+	float: left;
+}
+.saiba-mais{
+	background-color: #8585c1;
+	color: white;
+	font-weight: bold;
+	padding-right: 35px;
+	padding-left: 35px;
+	margin: 20px;
+}
+.saiba-mais:hover{
+	color: #8585c1;
+}
+/*FIM CORPO*/
+
+/* FOOTER */
+.footer a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+}
+.footer a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+.footer{
+	background-color: #8585c1;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+/*FIM FOOTER */
