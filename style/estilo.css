@@ -1,4 +1,7 @@
 /* CABECALHO */
+a:link{
+	text-decoration: none;
+}
 #img-header{
 	position: absolute;
 	width: 100%;
