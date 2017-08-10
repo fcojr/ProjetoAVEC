@@ -165,4 +165,11 @@ a: link{
 	padding-top: 50px;
 	padding-bottom: 40px;
 }
+.footer p{
+	color: #fff;
+	margin-top: 25px;
+}
+#franc{
+	text-transform: none;
+}
 /*FIM FOOTER */
